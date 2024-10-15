@@ -1,0 +1,69 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Paris",
+      "price": "500€",
+      "image": "/images/paris.jpg",
+      "description": "Paris est la capitale de la France, célèbre pour la Tour Eiffel et ses musées.",
+      "location": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "2",
+      "name": "New York",
+      "price": "700€",
+      "image": "/images/ny.jpg",
+      "description": "New York est la ville qui ne dort jamais, célèbre pour Times Square et Central Park.",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.006
+      }
+    },
+    {
+      "id": "3",
+      "name": "Tokyo",
+      "price": "800€",
+      "image": "/images/tokyo.jpg",
+      "description": "Tokyo est la capitale du Japon, connue pour ses gratte-ciels et ses temples traditionnels.",
+      "location": {
+        "lat": 35.6895,
+        "lng": 139.6917
+      }
+    }
+  ],
+  "reservations": [
+    {
+      "id": "446c",
+      "name": "TestUser",
+      "email": "test@testuser.com",
+      "date": "2024-12-15",
+      "destinationId": "2"
+    },
+    {
+      "id": "e855",
+      "name": "TestUser",
+      "email": "test@testuser.com",
+      "date": "2024-12-14",
+      "destinationId": "2"
+    },
+    {
+      "id": "b52c",
+      "name": "TestUser",
+      "email": "test@testuser.com",
+      "date": "2024-12-18",
+      "destinationId": "1"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "d203",
+      "username": "test",
+      "rating": 5,
+      "comment": "Tokyo est une ville magnifique à visiter",
+      "destinationId": 3
+    }
+  ]
+}
