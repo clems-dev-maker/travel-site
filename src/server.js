@@ -1,11 +1,12 @@
-// server.js (Backend avec Node.js et Express)
+require('dotenv').config(); // Charger les variables d'environnement depuis .env
+
 const express = require('express');
 const Stripe = require('stripe');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const stripe = Stripe(process.env.REACT_APP_STRIPE_SECRET_KEY); // Remplace par ta clé secrète Stripe
+const stripe = Stripe(process.env.STRIPE_SECRET_KEY); // Utiliser la clé Stripe depuis les variables d'environnement
 
 app.use(bodyParser.json());
 app.use(cors());
