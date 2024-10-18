@@ -64,6 +64,13 @@
       "rating": 5,
       "comment": "Tokyo est une ville magnifique à visiter",
       "destinationId": 3
+    },
+    {
+      "id": "e138",
+      "username": "test",
+      "rating": 5,
+      "comment": "Très beau voyage dans la ville de Paris ",
+      "destinationId": 1
     }
   ]
 }
