@@ -39,7 +39,7 @@ const DestinationDetail = () => {
                         <Card.Body>
                             <Card.Title style={{color: "#008DDA"}}>{destination.name}</Card.Title>
                             <Card.Text>{destination.description}</Card.Text>
-                            <Card.Text><strong>Prix:</strong> {destination.price}</Card.Text>
+                            <Card.Text><strong style={{color: "#008DDA"}}>Prix:</strong> {destination.price}</Card.Text>
                             <Button variant="success" as={Link} to={`/booking/${destination.id}`} className="me-2">Réserver maintenant</Button>
                             {/* Boutons de partage */}
                             <div className="mt-3">
@@ -50,7 +50,7 @@ const DestinationDetail = () => {
                                 <TwitterShareButton url={shareUrl} title={title} className="ms-2">
                                     <TwitterIcon size={32} round />
                                 </TwitterShareButton>
-                                <WhatsappShareButton url={shareUrl} title={title} separator=":: ">
+                                <WhatsappShareButton className="ms-2"  url={shareUrl} title={title} separator=":: ">
                                     <WhatsappIcon size={32} round />
                                 </WhatsappShareButton>
                             </div>
