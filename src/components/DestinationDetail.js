@@ -37,7 +37,7 @@ const DestinationDetail = () => {
                     </Col>
                     <Col md={6}>
                         <Card.Body>
-                            <Card.Title>{destination.name}</Card.Title>
+                            <Card.Title style={{color: "#008DDA"}}>{destination.name}</Card.Title>
                             <Card.Text>{destination.description}</Card.Text>
                             <Card.Text><strong>Prix:</strong> {destination.price}</Card.Text>
                             <Button variant="success" as={Link} to={`/booking/${destination.id}`} className="me-2">Réserver maintenant</Button>
@@ -58,7 +58,7 @@ const DestinationDetail = () => {
                     </Col>
                 </Row>
             </Card>
-            <h3>Avis</h3>
+            <h3 style={{color: "#008DDA"}}>Avis</h3>
             <ReviewsList destinationId={id} />
             <ReviewForm destinationId={id} />
         </div>

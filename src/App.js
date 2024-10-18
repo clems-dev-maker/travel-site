@@ -44,7 +44,7 @@ const App = () => {
 
     return (
         <Router>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar style={{backgroundColor: "#006BFF"}} variant="dark" expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to="/">TravelSite</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

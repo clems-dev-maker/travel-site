@@ -34,7 +34,7 @@ const ReviewForm = ({ destinationId }) => {
 
     return (
         <div className="review-form mt-4">
-            <h4>Ajouter un avis</h4>
+            <h4 style={{color: "#008DDA"}}>Ajouter un avis</h4>
 
             {/* Affichage de l'alerte si elle existe */}
             {alert && (

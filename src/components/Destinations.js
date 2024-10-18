@@ -39,7 +39,7 @@ const Destinations = () => {
 
     return (
         <div>
-            <h2 className="mb-4">Nos Destinations Populaires</h2>
+            <h2 style={{color: "#008DDA"}} className="mb-4">Nos Destinations Populaires</h2>
             <Row>
                 {destinations.map(destination => (
                     <Col key={destination.id} sm={12} md={6} lg={4} className="mb-4">
@@ -53,7 +53,7 @@ const Destinations = () => {
                                 style={{ objectFit: 'cover' }}
                             />
                             <Card.Body>
-                                <Card.Title>{destination.name}</Card.Title>
+                                <Card.Title style={{color: "#008DDA"}}>{destination.name}</Card.Title>
                                 <Card.Text>À partir de {destination.price}</Card.Text>
                                 <Button variant="primary" as={Link} to={`/destinations/${destination.id}`}>
                                     Voir Détails

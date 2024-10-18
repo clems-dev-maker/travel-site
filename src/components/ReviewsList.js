@@ -35,9 +35,9 @@ const ReviewsList = ({ destinationId }) => {
     return (
         <div className="reviews-list mt-4">
             {reviews.length === 0 ? (
-                <p>Aucun avis pour le moment.</p>
+                <p >Aucun avis pour le moment.</p>
             ) : (
-                <ListGroup>
+                <ListGroup >
                     {reviews.map(review => (
                         <ListGroup.Item key={review.id} className="mb-3">
                             <Card>
