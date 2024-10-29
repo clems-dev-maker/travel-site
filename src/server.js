@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const stripe = Stripe(process.env.STRIPE_SECRET_KEY); // Utiliser la clé Stripe depuis les variables d'environnement
+const stripe = Stripe('sk_test_51M1ndoBlNcXWBs9sce122JO9pH2U9iQTRGqfgpuVMQKsqN9FSPUAydi64qChdBSpGm2Pjy45UMyVkhnK2p3bAHsD00h4pGXjsS'); // Utiliser la clé Stripe depuis les variables d'environnement
 
 app.use(bodyParser.json());
 app.use(cors());

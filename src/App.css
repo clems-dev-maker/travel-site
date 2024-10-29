@@ -41,12 +41,13 @@ nav ul li button:hover, nav ul li a:hover {
   padding: 20px;
 }
 
-.destination-card {
+.destination-card:hover {
   width: 30%;
   padding: 10px;
   border: 1px solid #ccc;
   margin-bottom: 20px;
   box-sizing: border-box;
+
 }
 
 .destination-card img {

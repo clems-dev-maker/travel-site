@@ -6,6 +6,7 @@ import { Card, Button, Row, Col, Pagination } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
+
 const Destinations = () => {
     const [destinations, setDestinations] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
@@ -39,11 +40,11 @@ const Destinations = () => {
 
     return (
         <div>
-            <h2 style={{color: "#008DDA"}} className="mb-4">Nos Destinations Populaires</h2>
+            <h2 style={{ color: "#008DDA" }} className="mb-4">Nos Destinations Populaires</h2>
             <Row>
                 {destinations.map(destination => (
                     <Col key={destination.id} sm={12} md={6} lg={4} className="mb-4">
-                        <Card>
+                        <Card> {/* Ajout de la classe pour le survol */}
                             <LazyLoadImage
                                 src={destination.image}
                                 alt={destination.name}
@@ -53,7 +54,7 @@ const Destinations = () => {
                                 style={{ objectFit: 'cover' }}
                             />
                             <Card.Body>
-                                <Card.Title style={{color: "#008DDA"}}>{destination.name}</Card.Title>
+                                <Card.Title style={{ color: "#008DDA" }}>{destination.name}</Card.Title>
                                 <Card.Text>À partir de {destination.price}</Card.Text>
                                 <Button variant="primary" as={Link} to={`/destinations/${destination.id}`}>
                                     Voir Détails

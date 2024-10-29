@@ -22,7 +22,7 @@ const Contact = () => {
     return (
         <Card>
             <Card.Body>
-                <Card.Title>Contactez-nous</Card.Title>
+                <Card.Title style={{color: "#008DDA"}}>Contactez-nous</Card.Title>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group controlId="formName" className="mb-3">
                         <Form.Label>Nom</Form.Label>

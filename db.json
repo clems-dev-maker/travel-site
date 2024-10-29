@@ -32,6 +32,39 @@
         "lat": 35.6895,
         "lng": 139.6917
       }
+    },
+    {
+      "id": "4",
+      "name": "Seychelles",
+      "price": "1000€",
+      "image": "/images/seychelles.jpg",
+      "description": "Les Seychelles des iles paradisiaques et des plages magnifiques",
+      "location": {
+        "lat": -4.679574,
+        "lng": 	55.491977
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dubrovnik",
+      "price": "900€",
+      "image": "/images/dubrovnik.jpg",
+      "description": "Dubrovnik est une magnifique ville située sur la côte adriatique",
+      "location":{
+        "lat": 42.6480700,
+        "lng": 18.0921600
+      }
+    },
+    {
+      "id": "6",
+      "name": "Athènes",
+      "price": "600€",
+      "image": "/images/acropolis.jpg",
+      "description": "Venez découvrir Athènes et son patrimoine historique exceptionnel",
+      "location":{
+        "lat": 37.9794500,
+        "lng":  23.7162200
+      }
     }
   ],
   "reservations": [
@@ -55,6 +88,13 @@
       "email": "test@testuser.com",
       "date": "2024-12-18",
       "destinationId": "1"
+    },
+    {
+      "id": "934f",
+      "name": "TestUser",
+      "email": "test@testuser.com",
+      "date": "2024-12-31",
+      "destinationId": "2"
     }
   ],
   "reviews": [

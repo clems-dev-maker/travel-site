@@ -1,9 +1,11 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
+import './App.css'
 import { auth } from './firebase';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import PaymentPage from './components/PaymentPage';
+
 
 // Ajouter ces imports pour Stripe
 import { Elements } from '@stripe/react-stripe-js';
