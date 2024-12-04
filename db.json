@@ -41,7 +41,7 @@
       "description": "Les Seychelles des iles paradisiaques et des plages magnifiques",
       "location": {
         "lat": -4.679574,
-        "lng": 	55.491977
+        "lng": 55.491977
       }
     },
     {
@@ -50,9 +50,9 @@
       "price": "900€",
       "image": "/images/dubrovnik.jpg",
       "description": "Dubrovnik est une magnifique ville située sur la côte adriatique",
-      "location":{
-        "lat": 42.6480700,
-        "lng": 18.0921600
+      "location": {
+        "lat": 42.64807,
+        "lng": 18.09216
       }
     },
     {
@@ -61,9 +61,9 @@
       "price": "600€",
       "image": "/images/acropolis.jpg",
       "description": "Venez découvrir Athènes et son patrimoine historique exceptionnel",
-      "location":{
-        "lat": 37.9794500,
-        "lng":  23.7162200
+      "location": {
+        "lat": 37.97945,
+        "lng": 23.71622
       }
     }
   ],
@@ -111,6 +111,13 @@
       "rating": 5,
       "comment": "Très beau voyage dans la ville de Paris ",
       "destinationId": 1
+    },
+    {
+      "id": "6ad5",
+      "username": "test",
+      "rating": 5,
+      "comment": "Très belle destination",
+      "destinationId": 6
     }
   ]
 }
